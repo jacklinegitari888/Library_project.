@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     
     #local
     "books.apps.BooksConfig",
+    'api.apps.ApiConfig',
     
 ]
 
