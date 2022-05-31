@@ -5,6 +5,6 @@ from .serializers import BookSerializer
 
 
 
-class BookAPIVIEW(generics.ListAPIView):
+class BookAPIView(generics.ListAPIView):
     queryset=Book.objects.all()
     serializer_class=BookSerializer
