@@ -42,8 +42,13 @@ INSTALLED_APPS = [
     
      # new
      
-    "books"
-    "rest_framework"
+ 
+    "rest_framework",
+    
+    #local
+    "books.apps.BooksConfig",
+    'api.apps.ApiConfig',
+    
 ]
 
 MIDDLEWARE = [
@@ -74,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'library_project.wsgi.application'
+# WSGI_APPLICATION = 'library_project.wsgi.application'
 
 
 # Database
